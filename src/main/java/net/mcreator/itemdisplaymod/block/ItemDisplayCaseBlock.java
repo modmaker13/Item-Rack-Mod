@@ -17,8 +17,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class TestBlockBlock extends Block {
-	public TestBlockBlock() {
+public class ItemDisplayCaseBlock extends Block {
+	public ItemDisplayCaseBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

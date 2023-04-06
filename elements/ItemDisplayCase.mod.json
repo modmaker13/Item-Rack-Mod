@@ -2,14 +2,14 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "texture",
+    "texture": "texture2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "sword_rack:default",
+    "customModelName": "itemdisplay:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Test Block",
+    "name": "Item Display Case",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
