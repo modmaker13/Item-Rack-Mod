@@ -18,6 +18,7 @@ import net.mcreator.itemdisplaymod.ItemDisplayModMod;
 public class ItemDisplayModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ItemDisplayModMod.MODID);
 	public static final RegistryObject<Item> SWORD_RACK = block(ItemDisplayModModBlocks.SWORD_RACK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ITEM_DISPLAY_CASE = block(ItemDisplayModModBlocks.ITEM_DISPLAY_CASE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

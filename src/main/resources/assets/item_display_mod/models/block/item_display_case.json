@@ -1,0 +1,9 @@
+{
+  "parent": "item_display_mod:custom/itemdisplay",
+  "textures": {
+    "all": "item_display_mod:blocks/texture2",
+    "particle": "item_display_mod:blocks/texture2",
+    "missing": "item_display_mod:blocks/texture"
+  },
+  "render_type": "solid"
+}

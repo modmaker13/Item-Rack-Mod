@@ -17,24 +17,6 @@
       }
     },
     {
-      "name": "SwordRackOnBlockRightClicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sword_rack_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/itemdisplaymod/procedures/SwordRackOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "ItemDisplayCase",
       "type": "block",
       "sortid": 3,
@@ -43,9 +25,9 @@
       "registry_name": "item_display_case",
       "metadata": {
         "files": [
-          "src/main/resources/assets/item_display_mod/models/block/item_display_case.json",
-          "src/main/java/net/mcreator/itemdisplaymod/block/ItemDisplayCaseBlock.java",
           "src/main/resources/assets/item_display_mod/blockstates/item_display_case.json",
+          "src/main/java/net/mcreator/itemdisplaymod/block/ItemDisplayCaseBlock.java",
+          "src/main/resources/assets/item_display_mod/models/block/item_display_case.json",
           "src/main/resources/assets/item_display_mod/models/item/item_display_case.json"
         ]
       }
@@ -55,6 +37,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.item_display_mod.item_display_case": "Item Display Case",
       "block.item_display_mod.sword_rack": "Sword Rack"
     }
   },
