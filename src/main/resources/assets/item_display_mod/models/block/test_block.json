@@ -1,0 +1,9 @@
+{
+  "parent": "item_display_mod:custom/sword_rack",
+  "textures": {
+    "all": "item_display_mod:blocks/texture",
+    "particle": "item_display_mod:blocks/texture",
+    "0": "item_display_mod:blocks/texture"
+  },
+  "render_type": "solid"
+}
