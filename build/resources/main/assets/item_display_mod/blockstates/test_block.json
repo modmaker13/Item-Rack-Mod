@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "item_display_mod:block/test_block"
+    }
+  }
+}
